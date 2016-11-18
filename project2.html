@@ -1,0 +1,25 @@
+<!doctype html>
+	<html>
+		<head>
+			<title> Project 2 </title>
+			<link rel = "stylesheet" type = "text/css" href = "project2.css" />
+			<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+			<script src = "project2.js"></script>
+		</head>
+		<body>
+			<div>
+				<form id = "myForm">
+					<label> Address
+						<input type = "text" name = "address" placeholder = "Enter an Address" id = "Address"/>
+					</label>
+					<button type='button' id = "add">Add</button>
+				</form>
+			</div>
+			<div id = "content">
+				<ul id = "addresses"></ul>
+			</div>
+			<div id = "map"></div>
+			<script src="https://maps.googleapis.com/maps/api/js?&callback=initMap" async defer> 
+      		</script>
+		</body>
+	</html>
